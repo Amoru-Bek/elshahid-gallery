@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f12" />
+      <stop offset="100%" stop-color="#141c20" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3e5c8" />
+      <stop offset="50%" stop-color="#c5a059" />
+      <stop offset="100%" stop-color="#8e6d30" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#006633" />
+      <stop offset="100%" stop-color="#00331a" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <drop-shadow dx="0" dy="0" stdDeviation="6" flood-color="#c5a059" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Outer Gold Border Frame -->
+  <rect x="20" y="20" width="360" height="460" rx="10" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.4" />
+  <rect x="25" y="25" width="350" height="450" rx="8" fill="none" stroke="url(#goldGrad)" stroke-width="0.5" opacity="0.2" />
+
+  <!-- Corner Ornamental Accents -->
+  <path d="M 20 40 L 40 20 M 20 30 L 30 20" stroke="url(#goldGrad)" stroke-width="1.5" />
+  <path d="M 380 40 L 360 20 M 380 30 L 370 20" stroke="url(#goldGrad)" stroke-width="1.5" />
+  <path d="M 20 460 L 40 480 M 20 470 L 30 480" stroke="url(#goldGrad)" stroke-width="1.5" />
+  <path d="M 380 460 L 360 480 M 380 470 L 370 480" stroke="url(#goldGrad)" stroke-width="1.5" />
+
+  <!-- Center Shield or Badge -->
+  <g transform="translate(200, 220)">
+    <!-- Outer Glow Circle -->
+    <circle r="95" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.3" filter="url(#glow)" />
+    
+    <!-- Emerald Circle -->
+    <circle r="90" fill="url(#greenGrad)" stroke="url(#goldGrad)" stroke-width="2" />
+    <circle r="84" fill="none" stroke="url(#goldGrad)" stroke-width="0.5" opacity="0.5" stroke-dasharray="4,4" />
+
+    <!-- Stylized Laurel Wreath (Left side) -->
+    <path d="M -45,60 C -70,30 -70,-30 -45,-60 C -55,-40 -55,-10 -45,15" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.7" />
+    <!-- Stylized Laurel Wreath (Right side) -->
+    <path d="M 45,60 C 70,30 70,-30 45,-60 C 55,-40 55,-10 45,15" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.7" />
+
+    <!-- Algerian Crescent and Star -->
+    <!-- Crescent -->
+    <path d="M 12,-25 A 32,32 0 1,0 12,25 A 25,25 0 1,1 12,-25 Z" fill="#ffffff" />
+    <!-- Star -->
+    <polygon points="12,-5 15,3 23,3 17,8 19,16 12,11 5,16 7,8 1,3 9,3" fill="#d21034" transform="translate(10, -5) scale(0.9)" />
+  </g>
+
+  <!-- Typography below the crest -->
+  <text x="200" y="380" font-family="'Cinzel', serif" font-size="18" fill="url(#goldGrad)" text-anchor="middle" font-weight="bold" letter-spacing="4">MÉMORIAL</text>
+  <text x="200" y="410" font-family="'Cinzel', serif" font-size="12" fill="#ffffff" text-anchor="middle" letter-spacing="2" opacity="0.8">GLOIRE AUX MARTYRS</text>
+  <text x="200" y="430" font-family="'Inter', sans-serif" font-size="10" fill="#8e9fa5" text-anchor="middle" letter-spacing="1" opacity="0.6">1954 - 1962</text>
+</svg>
