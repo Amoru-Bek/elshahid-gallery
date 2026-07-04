@@ -825,6 +825,9 @@ h1, h2, h3, h4, h5, h6 {
   .modal-grid {
     grid-template-columns: 1fr;
   }
+  .modal-image-panel {
+    min-height: 250px;
+  }
 }
 
 .modal-image-panel {
@@ -834,6 +837,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .modal-image {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -851,7 +857,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .modal-image-overlay {
-    background: linear-gradient(to top, rgba(15, 20, 24, 0.95) 90%, transparent);
+    background: linear-gradient(to bottom, transparent 60%, rgba(15, 20, 24, 0.95) 100%);
   }
 }
 
@@ -865,6 +871,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 480px) {
   .modal-info-panel {
     padding: 24px;
+  }
+  .modal-image-panel {
+    min-height: 200px;
   }
 }
 
