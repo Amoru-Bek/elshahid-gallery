@@ -11,7 +11,6 @@ const Navbar = ({ activeSection, setActiveSection, lang, setLang }) => {
     { id: 'gallery', label: t.navMartyrs },
     { id: 'wilayas', label: t.navWilayas },
     { id: 'timeline', label: t.navTimeline },
-    { id: 'anthem', label: t.navAnthem },
   ];
 
   const handleScroll = (id) => {
@@ -79,10 +78,6 @@ const Navbar = ({ activeSection, setActiveSection, lang, setLang }) => {
             </button>
           </div>
 
-          <button className="nav-btn" onClick={() => handleScroll('gallery')}>
-            <Star size={16} fill="currentColor" />
-            <span>{t.exploreBtn}</span>
-          </button>
         </div>
 
         {/* Mobile menu trigger button */}
@@ -138,12 +133,6 @@ const Navbar = ({ activeSection, setActiveSection, lang, setLang }) => {
           </div>
         </div>
 
-        <div className="mobile-divider"></div>
-
-        <button className="nav-btn" onClick={() => handleScroll('gallery')} style={{ width: '100%', justifyContent: 'center' }}>
-          <Star size={16} fill="currentColor" />
-          <span>{t.exploreBtn}</span>
-        </button>
       </div>
     </nav>
   );

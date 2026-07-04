@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import MartyrGrid from './components/MartyrGrid';
 import WilayasMap from './components/WilayasMap';
 import Timeline from './components/Timeline';
-import AnthemPlayer from './components/AnthemPlayer';
 import Footer from './components/Footer';
 import BiographyModal from './components/BiographyModal';
 import { martyrsData } from './data/martyrs';
@@ -23,7 +22,7 @@ function App() {
 
   // Monitor scrolling to update active navbar section
   useEffect(() => {
-    const sections = ['hero', 'gallery', 'wilayas', 'timeline', 'anthem'];
+    const sections = ['hero', 'gallery', 'wilayas', 'timeline'];
     
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 100; // Offset for navbar
@@ -81,8 +80,7 @@ function App() {
         />
         
         <Timeline lang={lang} />
-        
-        <AnthemPlayer lang={lang} />
+
       </main>
 
       <Footer lang={lang} />

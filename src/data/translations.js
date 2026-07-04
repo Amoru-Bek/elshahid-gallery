@@ -5,10 +5,8 @@ export const translations = {
     navMartyrs: "الشهداء",
     navWilayas: "الولايات التاريخية",
     navTimeline: "الخط الزمني",
-    navAnthem: "قسماً",
-    exploreBtn: "استكشف",
     logoSubtitle: "شهدائنا 1954-1962",
-    logoMain: "معرض المجاهد الإلكتروني",
+    logoMain: "معرض المجاهد",
 
     // Hero
     heroBadge: "تكريم وطني • الثورة الجزائرية",
@@ -55,17 +53,6 @@ export const translations = {
     timelineTitleSub: "الثورة",
     timelineDesc: "تتبع المحطات التاريخية الحاسمة للكفاح المسلح، من اندلاع ثورة أول نوفمبر 1954 إلى إعلان الاستقلال في جويلية 1962.",
 
-    // Anthem
-    anthemBadge: "النشيد الوطني",
-    anthemTitleMain: "نشيد",
-    anthemTitleSub: "قسماً",
-    anthemDesc: "النشيد الوطني الجزائري، كتبه شاعر الثورة مفدي زكريا عام 1955 في الزنزانة رقم 69 بسجن بربروس في الجزائر العاصمة، وصاغه بدمائه على جدران زنزانته.",
-    anthemHistoryTitle: "قصة نشيد الحرية الخالد",
-    anthemHistoryDesc1: "كتب شاعر الثورة مفدي زكريا كلمات النشيد الوطني، ولحنها الموسيقار المصري الكبير محمد فوزي بعد رفض مقترحين آخرين من قيادة الثورة.",
-    anthemHistoryDesc2: "يتكون النشيد من خمسة مقاطع، وهو النشيد الوطني الوحيد في العالم الذي يذكر دولة أخرى (فرنسا) بالاسم، مؤكداً على حتمية القطيعة الاستعمارية ونيل الحرية.",
-    anthemHistoryDisclaimer: "رمز وطني: تم اعتماد نشيد قسماً رسمياً كنشيد وطني للجمهورية الجزائرية الديمقراطية الشعبية بعد الاستقلال في عام 1962.",
-    lyricTitleAr: "قَسَماً",
-    lyricTitleFr: "Qassaman (Le Serment)",
 
     // Modal
     modalBirth: "الولادة",
@@ -87,10 +74,8 @@ export const translations = {
     navMartyrs: "Martyrs",
     navWilayas: "Historical Wilayas",
     navTimeline: "Timeline",
-    navAnthem: "Kassaman",
-    exploreBtn: "Explore",
     logoSubtitle: "Martyrs 1954-1962",
-    logoMain: "El Mujahid Digital Gallery",
+    logoMain: "El Mujahid Gallery",
 
     // Hero
     heroBadge: "National Tribute • Algerian Revolution",
@@ -137,17 +122,6 @@ export const translations = {
     timelineTitleSub: "Timeline",
     timelineDesc: "Follow the historical milestones and decisive events of the national liberation struggle, from the outbreak of the revolution on November 1, 1954, to Algeria's independence in July 1962.",
 
-    // Anthem
-    anthemBadge: "National Anthem",
-    anthemTitleMain: "Anthem",
-    anthemTitleSub: "Kassaman",
-    anthemDesc: "The Algerian national anthem, written by the poet of the revolution Moufdi Zakaria in 1955 in cell 69 of Barbarousse prison in Algiers, written in his own blood on the prison walls.",
-    anthemHistoryTitle: "The Story of an Eternal Revolutionary Anthem",
-    anthemHistoryDesc1: "Written by Moufdi Zakaria, Kassaman was set to music by the famous Egyptian composer Mohamed Fawzi after two other proposals were rejected by the revolution command.",
-    anthemHistoryDesc2: "The anthem contains five verses. It is the only national anthem in the world that directly mentions another country (France) in its lyrics, declaring the final break with colonization.",
-    anthemHistoryDisclaimer: "National Symbol: Kassaman was officially adopted as the national anthem of the People's Democratic Republic of Algeria shortly after independence in 1962.",
-    lyricTitleAr: "قَسَماً",
-    lyricTitleFr: "Qassaman (The Oath)",
 
     // Modal
     modalBirth: "Birth",
@@ -169,10 +143,8 @@ export const translations = {
     navMartyrs: "Chouhada",
     navWilayas: "Wilayas Historiques",
     navTimeline: "Chronologie",
-    navAnthem: "Kassaman",
-    exploreBtn: "Explorer",
     logoSubtitle: "Chouhada 1954-1962",
-    logoMain: "Galerie Électronique El Moudjahid",
+    logoMain: "Galerie El Moudjahid",
 
     // Hero
     heroBadge: "Hommage National • Révolution Algérienne",
@@ -219,17 +191,6 @@ export const translations = {
     timelineTitleSub: "Révolution",
     timelineDesc: "Suivez les jalons historiques et les événements décisifs de la lutte de libération nationale, de l'insurrection du 1er novembre 1954 à l'indépendance de l'Algérie en juillet 1962.",
 
-    // Anthem
-    anthemBadge: "Hymne National",
-    anthemTitleMain: "Hymne",
-    anthemTitleSub: "Kassaman",
-    anthemDesc: "L'hymne national algérien, écrit par le poète Moufdi Zakaria en 1955 dans la cellule 69 de la prison de Barberousse à Alger. Il fut rédigé avec son propre sang sur les murs de la cellule.",
-    anthemHistoryTitle: "L'Histoire d'un Chant Révolutionnaire",
-    anthemHistoryDesc1: "Composé à l'origine en prison par Moufdi Zakaria, Kassaman a été mis en musique par le compositeur égyptien Mohamed Fawzi après que deux autres propositions eurent été rejetées par le commandement de la révolution.",
-    anthemHistoryDesc2: "La chanson contient cinq couplets. Il s'agit du seul hymne national au monde qui mentionne directement un autre pays (la France) dans ses paroles, affirmant l'irréversibilité de la rupture coloniale.",
-    anthemHistoryDisclaimer: "Symbole National : Kassaman fut adopté officiellement comme hymne national de la République Algérienne Démocratique et Populaire peu après l'indépendance en 1962.",
-    lyricTitleAr: "قَسَماً",
-    lyricTitleFr: "Qassaman (Le Serment)",
 
     // Modal
     modalBirth: "Naissance",

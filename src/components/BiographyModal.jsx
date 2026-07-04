@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, Award, BookOpen, Quote } from 'lucide-react';
+import { X, Award, BookOpen } from 'lucide-react';
 import { translations } from '../data/translations';
 
 const BiographyModal = ({ martyr, onClose, lang }) => {
@@ -73,18 +73,6 @@ const BiographyModal = ({ martyr, onClose, lang }) => {
                 </span>
               </div>
             </div>
-
-            {martyr.quote && (
-              <div className="modal-quote">
-                <Quote size={24} style={{ color: 'var(--accent-gold)', marginBottom: '8px', opacity: 0.5, transform: lang === 'ar' ? 'scaleX(-1)' : 'none' }} />
-                <p>"{getLocalizedValue(martyr.quote)}"</p>
-                {martyr.altQuote && (
-                  <p style={{ marginTop: '10px', fontSize: '0.95rem', opacity: 0.85 }}>
-                    "{getLocalizedValue(martyr.altQuote)}"
-                  </p>
-                )}
-              </div>
-            )}
 
             <div className="modal-bio">
               <h3 style={{ fontSize: '1.05rem', color: 'var(--text-primary)', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '8px' }}>
