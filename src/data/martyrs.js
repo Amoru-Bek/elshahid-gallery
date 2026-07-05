@@ -442,7 +442,7 @@ export const martyrsData = [
     },
     ageAtDeath: "30",
     wilaya: "V",
-    image: "/images/martyr_placeholder.svg",
+    image: "/images/zabana.png",
     quote: {
       ar: "إن موتي هو انتصار وعزة للجزائر.",
       en: "My death is a victory for Algeria.",
@@ -522,7 +522,7 @@ export const martyrsData = [
     },
     ageAtDeath: "32",
     wilaya: "III",
-    image: "/images/martyr_placeholder.svg",
+    image: "/images/amirouche.png",
     quote: {
       ar: "الثورة لا تتراجع. إما أن ننتصر أو نستشهد.",
       en: "The revolution does not back down. We either win or we die.",
@@ -602,7 +602,7 @@ export const martyrsData = [
     },
     ageAtDeath: "23",
     wilaya: "III",
-    image: "/images/martyr_placeholder.svg",
+    image: "/images/malika.png",
     quote: {
       ar: "نحن نداوي الجراح، لكننا نحمل السلاح للدفاع عن وطننا.",
       en: "We heal the wounds, but we also fight for our land.",
@@ -682,7 +682,7 @@ export const martyrsData = [
     },
     ageAtDeath: "13",
     wilaya: "IV",
-    image: "/images/martyr_placeholder.svg",
+    image: "/images/omar.png",
     quote: {
       ar: "أنا صغير البنية، لكن قلبي كبير بحب الجزائر.",
       en: "I am small, but my heart is big for Algeria.",
@@ -761,7 +761,7 @@ export const martyrsData = [
     },
     ageAtDeath: "35",
     wilaya: "II",
-    image: "/images/martyr_placeholder.svg",
+    image: "/images/zighoud.png",
     quote: {
       ar: "سنضرب المستعمر في عقر داره وننشر الثورة بين الشعب.",
       en: "We will strike the colonial power in its heart.",
